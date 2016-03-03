@@ -4,7 +4,7 @@ class Car:
 
     def __init__(self, gas):
         self.gas = gas
-        print("Car has {} Gas.".format(self.gas)
+        print("Car has {} Gas.".format(self.gas))
 
     def start(self):
         if self.gas > 0:
@@ -23,7 +23,7 @@ class Car:
 
 # Start and Drive the Car until it runs out of gas.
 # Arrance y Maneja el auto hasta que se quede sin combustible.
-my_car = Car()
+my_car = Car(5)
 my_car.start()
 
 for index in range(5):
